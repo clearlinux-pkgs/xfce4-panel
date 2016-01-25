@@ -4,7 +4,7 @@
 #
 Name     : xfce4-panel
 Version  : 4.12.0
-Release  : 15
+Release  : 16
 URL      : http://archive.xfce.org/src/xfce/xfce4-panel/4.12/xfce4-panel-4.12.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-panel/4.12/xfce4-panel-4.12.0.tar.bz2
 Summary  : Library for the Xfce Panel
@@ -57,6 +57,7 @@ Group: Development
 Requires: xfce4-panel-lib
 Requires: xfce4-panel-bin
 Requires: xfce4-panel-data
+Provides: xfce4-panel-devel
 
 %description dev
 dev components for the xfce4-panel package.
@@ -96,6 +97,9 @@ locales components for the xfce4-panel package.
 make V=1  %{?_smp_mflags}
 
 %check
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
@@ -109,17 +113,6 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 %files
 %defattr(-,root,root,-)
 /usr/lib64/xfce4/panel/migrate
-/usr/lib64/xfce4/panel/plugins/libactions.so
-/usr/lib64/xfce4/panel/plugins/libapplicationsmenu.so
-/usr/lib64/xfce4/panel/plugins/libclock.so
-/usr/lib64/xfce4/panel/plugins/libdirectorymenu.so
-/usr/lib64/xfce4/panel/plugins/liblauncher.so
-/usr/lib64/xfce4/panel/plugins/libpager.so
-/usr/lib64/xfce4/panel/plugins/libseparator.so
-/usr/lib64/xfce4/panel/plugins/libshowdesktop.so
-/usr/lib64/xfce4/panel/plugins/libsystray.so
-/usr/lib64/xfce4/panel/plugins/libtasklist.so
-/usr/lib64/xfce4/panel/plugins/libwindowmenu.so
 /usr/lib64/xfce4/panel/wrapper-1.0
 
 %files bin
@@ -210,6 +203,17 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/*.so.*
+/usr/lib64/xfce4/panel/plugins/libactions.so
+/usr/lib64/xfce4/panel/plugins/libapplicationsmenu.so
+/usr/lib64/xfce4/panel/plugins/libclock.so
+/usr/lib64/xfce4/panel/plugins/libdirectorymenu.so
+/usr/lib64/xfce4/panel/plugins/liblauncher.so
+/usr/lib64/xfce4/panel/plugins/libpager.so
+/usr/lib64/xfce4/panel/plugins/libseparator.so
+/usr/lib64/xfce4/panel/plugins/libshowdesktop.so
+/usr/lib64/xfce4/panel/plugins/libsystray.so
+/usr/lib64/xfce4/panel/plugins/libtasklist.so
+/usr/lib64/xfce4/panel/plugins/libwindowmenu.so
 
 %files locales -f xfce4-panel.lang 
 %defattr(-,root,root,-)
