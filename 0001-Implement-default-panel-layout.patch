@@ -1,16 +1,16 @@
-From 4112f1987a1cd79991eda9fbeae6a20357660746 Mon Sep 17 00:00:00 2001
+From c1873fd90c15877713da9c9283284796648c3d2b Mon Sep 17 00:00:00 2001
 From: Ikey Doherty <michael.i.doherty@intel.com>
 Date: Tue, 19 May 2015 18:31:29 +0100
 Subject: [PATCH] Implement default panel layout
 
 Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
 ---
- migrate/default.xml    | 47 +++--------------------------------------------
- migrate/default.xml.in | 47 +++--------------------------------------------
- 2 files changed, 6 insertions(+), 88 deletions(-)
+ migrate/default.xml    | 49 ++++---------------------------------------------
+ migrate/default.xml.in | 49 ++++---------------------------------------------
+ 2 files changed, 8 insertions(+), 90 deletions(-)
 
 diff --git a/migrate/default.xml b/migrate/default.xml
-index 8c540f6..c494201 100644
+index 8c540f6..aa680a9 100644
 --- a/migrate/default.xml
 +++ b/migrate/default.xml
 @@ -4,9 +4,8 @@
@@ -24,7 +24,7 @@ index 8c540f6..c494201 100644
        <property name="length" type="uint" value="100"/>
        <property name="position-locked" type="bool" value="true"/>
        <property name="size" type="uint" value="30"/>
-@@ -16,24 +15,9 @@
+@@ -16,59 +15,19 @@
          <value type="int" value="15"/>
          <value type="int" value="4"/>
          <value type="int" value="5"/>
@@ -48,8 +48,11 @@ index 8c540f6..c494201 100644
 -    </property>
    </property>
    <property name="plugins" type="empty">
-     <property name="plugin-1" type="string" value="applicationsmenu"/>
-@@ -43,32 +27,7 @@
+-    <property name="plugin-1" type="string" value="applicationsmenu"/>
++    <property name="plugin-1" type="string" value="whiskermenu"/>
+     <property name="plugin-2" type="string" value="actions"/>
+     <property name="plugin-3" type="string" value="tasklist"/>
+     <property name="plugin-15" type="string" value="separator">
        <property name="expand" type="bool" value="true"/>
        <property name="style" type="uint" value="0"/>
      </property>
@@ -85,7 +88,7 @@ index 8c540f6..c494201 100644
    </property>
  </channel>
 diff --git a/migrate/default.xml.in b/migrate/default.xml.in
-index 6b61479..43688ff 100644
+index 6b61479..81cfd3a 100644
 --- a/migrate/default.xml.in
 +++ b/migrate/default.xml.in
 @@ -4,9 +4,8 @@
@@ -99,7 +102,7 @@ index 6b61479..43688ff 100644
        <property name="length" type="uint" value="100"/>
        <property name="position-locked" type="bool" value="true"/>
        <property name="size" type="uint" value="30"/>
-@@ -16,24 +15,9 @@
+@@ -16,59 +15,19 @@
          <value type="int" value="15"/>
          <value type="int" value="4"/>
          <value type="int" value="5"/>
@@ -123,8 +126,11 @@ index 6b61479..43688ff 100644
 -    </property>
    </property>
    <property name="plugins" type="empty">
-     <property name="plugin-1" type="string" value="applicationsmenu"/>
-@@ -43,32 +27,7 @@
+-    <property name="plugin-1" type="string" value="applicationsmenu"/>
++    <property name="plugin-1" type="string" value="whiskermenu"/>
+     <property name="plugin-2" type="string" value="actions"/>
+     <property name="plugin-3" type="string" value="tasklist"/>
+     <property name="plugin-15" type="string" value="separator">
        <property name="expand" type="bool" value="true"/>
        <property name="style" type="uint" value="0"/>
      </property>
@@ -160,5 +166,5 @@ index 6b61479..43688ff 100644
    </property>
  </channel>
 -- 
-1.9.1
+2.7.0
 
