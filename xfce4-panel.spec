@@ -4,7 +4,7 @@
 #
 Name     : xfce4-panel
 Version  : 4.13.0
-Release  : 24
+Release  : 25
 URL      : http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.0.tar.bz2
 Summary  : Library for the Xfce Panel
