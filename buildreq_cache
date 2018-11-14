@@ -1,0 +1,7 @@
+4.13.3
+gobject-introspection-dev
+libX11-dev
+perl
+pkgconfig(ice)
+pkgconfig(x11)
+vala

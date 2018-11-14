@@ -1,3 +1,88 @@
+4.13.3
+======
+- Bugfixes:
+  - Get the actual widget state flags to avoid constant redraws (Bug #14307)
+  -	launcher: Fix empty button in remove launcher dialog (Bug #13962)
+  -	launcher: Make sure icons are not oversize
+  - launcher: Make sure the appropriate icon size is used
+  - launcher: Fix resizing of pixbuf based icons (Bug #14138)
+  - Move "Separator" to the top of the "Add New Items..." menu (Bug #14086)
+  - Make a couple of strings translatable (Bug #14338)
+  - Make former GtkStock dialog buttons translateable (Bug #14338)
+  - Make double-click add plugin in the "Add item" dialog (Bug #9784)
+  - clock: Improve discoverability of tooltip help-texts (Bug #11708)
+  - Correctly initialize return value (Bug #10873)
+  - Gtk+3 fixes:
+    Fix various warnings with Gtk3 (Bug #14135)
+    Fix Gtk+3 version in ifdef
+    Use 'gdk_screen_is_composited' with Gtk3 (Bug #14128)
+  	Try to fix menu positioning with Gtk3.22
+  - Various icon fixes:
+    Switch to GtkIconTheme (Bug #14125)
+    Fix missing icons with Adwaita icon theme (Bug #14133)
+    Fix remaining deprecated icon names
+- Translation updates: Belarusian, Bulgarian, Catalan, Chinese (China),
+   Croatian, Czech, Danish, Dutch (Flemish), English (Australia), Finnish,
+   French, Galician, German, Greek, Hebrew, Hungarian, Italian, Japanese,
+   Lithuanian, Malay, Norwegian Bokmål, Polish, Portuguese (Brazilian),
+   Russian, Serbian, Turkish, Ukrainian
+
+4.13.2
+======
+- Add support for gobject-introspection (Vidar Haarr)
+- Bugfixes:
+  - actions: Fix GPtrArray usage (Bug #13981)
+  - actions: Show Hybrid Sleep option (Bug #12771)
+  - clock: Fix invalid datetime formats appearing in list (Bug #11527)
+  - clock: Use freedesktop.org compliant icon (Bug #13779)
+  - clock: Add a validator for digital custom formats (Bug #11527)
+  - clock: Fix format validation (Bug #11527)
+  - launcher: Fix custom images
+  - tasklist: Fix scrolling to cycle through open windows (Bug #13789)
+  - tasklist: Define cosmetic default padding for images (Bug #13865)
+  - tasklist: Fix alignment of labels when orientation is changed (Bug #13864)
+  - tasklist: Allow to hide label decorations (Bug #10546)
+  - systray: Fix crash when systray is empty (Bug #13927)
+  - systray: Don't lookup hash table for null keys (Bug #11929)
+  - systray: Add option to display icons with square sizing (Bug #12093)
+  - Pass socket id to D-Bus service to embed settings window (Bug #13854)
+  - Make "Automatic" the default selection in the panel config dialog
+  - Fix make distcheck (But #14040)
+  - Improve gtkdoc
+- Translation updates: Arabic, Asturian, Basque, Bengali, Bulgarian, Catalan,
+   Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech,
+   Danish, Dutch (Flemish), English (Australia), English (Great Britain),
+   Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian,
+   Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay,
+   Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese,
+   Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian,
+   Spanish, Swedish, Thai, Turkish, Ukrainian, Uyghur, Vietnamese
+
+4.13.1
+======
+- Port to GDBus (Ali)
+   This means the panel now depends on xfconf 4.13 - recommended is 4.13.3.
+- Features:
+  - systray: Allow ordering of items (Bug #11929)
+  - tasklist: Add styleclass to make life easier for themers
+- Bugfixes:
+  - Fix DND between external plugins (Bug #13687)
+  - Fix drag and drop for internal plugins (Bug #13642)
+  - Correct enter and leave opacity label positions (Bug #13594)
+  - Fix Gtk3 XfceArrowButtons not blinking (Bug #13599)
+  - Fix datarootdir declaration in .pc files (Bug #13589)
+  - Use fd.org terminal icon name (Bug #13592)
+  - Don't let the wrapper crash on unknown properties (Bug #13614)
+  - Set default panel-2 size of default settings
+  - windowmenu: Fix icon size in menu
+  - systray: Fix alignment of single non-square items (Bug #9095)
+  - clock: Make the default date and time format translatable (Bug #9637)
+- Translation updates: Arabic, Bengali, Bulgarian, Catalan, Chinese (China),
+   Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), French, German,
+   Hebrew, Indonesian, Japanese, Kazakh, Korean, Lithuanian, Norwegian Bokmål,
+   Polish, Portuguese, Portuguese (Brazilian), Russian, Slovak, Spanish, Swedish,
+   Turkish, Ukrainian
+
 4.13.0
 ======
 - Port to Gtk3:
@@ -21,9 +106,10 @@
   - Not all panel settings may be kept as the configuration is not 100% backward
     compatible (e.g. we're using GdkRGBA instead of GdkColor for the backgorund)
 - Known todos:
-  - Fix all the bugs/regressions
+  - Fix all bugs/regressions
   - Remove more/all Gtk+ deprecations
-- Translations updates
+    (lots of warnings when compiling currently)
+- Lots of translations updates
 
 4.12.1
 ======
