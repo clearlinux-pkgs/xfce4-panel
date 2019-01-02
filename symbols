@@ -62,6 +62,7 @@ libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_get_unique_id
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_remote_event
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_removed
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_save
+libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_set_icon_size
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_set_locked
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_set_mode
 libxfce4panel-1.0.so.4:xfce_panel_plugin_provider_set_nrows
@@ -138,6 +139,7 @@ libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_get_unique_id
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_remote_event
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_removed
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_save
+libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_set_icon_size
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_set_locked
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_set_mode
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_set_nrows
