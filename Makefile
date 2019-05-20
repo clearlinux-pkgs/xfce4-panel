@@ -1,5 +1,5 @@
 PKG_NAME := xfce4-panel
-URL = http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.4.tar.bz2
+URL = http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.5.tar.bz2
 ARCHIVES = 
 
 include ../common/Makefile.common
