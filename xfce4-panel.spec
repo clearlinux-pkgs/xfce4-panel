@@ -4,7 +4,7 @@
 #
 Name     : xfce4-panel
 Version  : 4.13.5
-Release  : 28
+Release  : 29
 URL      : http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.5.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-panel/4.13/xfce4-panel-4.13.5.tar.bz2
 Summary  : Library for the Xfce Panel
@@ -20,6 +20,7 @@ BuildRequires : gobject-introspection-dev
 BuildRequires : gtk-doc
 BuildRequires : gtk-doc-dev
 BuildRequires : intltool
+BuildRequires : libX11-dev
 BuildRequires : libxslt-bin
 BuildRequires : perl
 BuildRequires : pkgconfig(cairo)
@@ -33,12 +34,14 @@ BuildRequires : pkgconfig(gio-unix-2.0)
 BuildRequires : pkgconfig(glib-2.0)
 BuildRequires : pkgconfig(gmodule-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
+BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(libwnck-1.0)
 BuildRequires : pkgconfig(libwnck-3.0)
 BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
+BuildRequires : pkgconfig(x11)
 BuildRequires : sed
 BuildRequires : vala
 
@@ -118,13 +121,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1558330204
+export SOURCE_DATE_EPOCH=1558718521
 export GCC_IGNORE_WERROR=1
-export LDFLAGS="${LDFLAGS} -fno-lto"
-export CFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
-export CXXFLAGS="$CXXFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
+export CFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-lto -fno-semantic-interposition "
+export FCFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-lto -fno-semantic-interposition "
+export FFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-lto -fno-semantic-interposition "
+export CXXFLAGS="$CXXFLAGS -Os -fdata-sections -ffunction-sections -fno-lto -fno-semantic-interposition "
 %configure --disable-static --disable-introspection
 make  %{?_smp_mflags}
 
@@ -136,7 +138,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1558330204
+export SOURCE_DATE_EPOCH=1558718521
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-panel
 cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-panel/COPYING
