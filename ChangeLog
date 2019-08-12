@@ -1,3 +1,189 @@
+commit cfdf495627b699d7cb8aa349bf35ef5c3d4a1a2b
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Sun Aug 11 12:30:40 2019 +0200
+
+    I18n: Update translation nb (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 002378a77d0ea5e9379dd4be452cc824e30dc920
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Sat Aug 10 12:30:51 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b014c29ad0a0f78d22cc46fe04e02762e2dd6abf
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Thu Aug 8 18:31:40 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 441462627bc0c2a84c881b3718c04d02f31b8dcd
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Aug 7 00:30:37 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f2671bda9603c2b6c85bb727ea8d17be8a8ba5cf
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Tue Aug 6 00:30:34 2019 +0200
+
+    I18n: Update translation fi (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 94a41c8cc263845de24637ffe68a93754e0a02e7
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Aug 4 18:30:34 2019 +0200
+
+    I18n: Update translation hu (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 75a10e232c2ebbd5bd3a04d580f522fbbf3495cd
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Aug 3 23:02:32 2019 +0200
+
+    tasklist: Keep panel visible on drag and drop (Bug #15703)
+
+commit 95319248145b5506f5a639c7ccdd7732772d74bd
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Jul 13 22:58:18 2019 +0200
+
+    pager: Keep panel visible on drag and drop (Bug #15703)
+
+commit 713e98978ae7c97f09a662b0a65a9d28734e330b
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Sat Aug 3 12:30:34 2019 +0200
+
+    I18n: Update translation kk (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8b7603a153e7fb9449b8f23ef5e27991d645115f
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Sat Aug 3 12:30:34 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c599e1e2e7b3cceabd1bda8ad9a10228fe2c4ed2
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 2 18:30:35 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5231d4b79f7dd13a6f4ee51fd7e4e720ec351f64
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Wed Jul 31 06:30:48 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit aba078dd561e1550be5c81cf909be07391342713
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Wed Jul 31 06:30:48 2019 +0200
+
+    I18n: Update translation ja (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7b73b9b49b6617ec6f5ff813c28cf6de7b981c21
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Tue Jul 30 06:30:40 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    411 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b9c5a8b963e34e13ee19d22dc097f773cc12cc25
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Mon Jul 29 23:42:44 2019 -0300
+
+    Make launcher-dialog's context menu popup at pointer
+
+commit ae8e7bba3ef47f04ee8d21d2cb4b87b2c5b279d2
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Mon Jul 29 23:42:25 2019 -0300
+
+    Make strings translatable
+
+commit c66a5455edab63a353ff02f07a7cd0903b3bceba
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jul 29 12:30:42 2019 +0200
+
+    I18n: Update translation lt (100%).
+    
+    411 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8fb43d726ac620dea6776a3f8fa2c504d0f8e4e8
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Mon Jul 29 06:30:49 2019 +0200
+
+    I18n: Update translation zh_CN (100%).
+    
+    411 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 09fd379482da9fc5eb49097813cbcb7e8d2c693e
+Author: Andreas Eitel <github-aneitel@online.de>
+Date:   Mon Jul 29 00:30:51 2019 +0200
+
+    I18n: Update translation de (100%).
+    
+    411 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 79cd35d5c78b7c7dfa69643c29c942411237f536
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jul 28 15:22:52 2019 +0200
+
+    Back to development
+
+commit 40ac073ec85634a80687cf8558936764299fa7c9
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jul 28 15:20:42 2019 +0200
+
+    Updates for release
+
 commit 3d5c9333484231b5f7bbaf1c0a0e08c4efed5afb
 Author: Kiril Kirilov <cybercop_montana@abv.bg>
 Date:   Sun Jul 28 00:30:33 2019 +0200
