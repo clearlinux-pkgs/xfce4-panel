@@ -1,3 +1,304 @@
+commit bd51a4996142876d811e64a22c27e9042330e529
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Wed Sep 25 23:56:16 2019 +0200
+
+    Updates for release
+
+commit 81e790321ffd8ca3435fd7dc104855e4d8868a45
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Wed Sep 25 06:30:41 2019 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6346ba9335a21f3b6ac5fd4828fda49c11f4e53b
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Tue Sep 24 12:30:54 2019 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ae17af3ca4779d3b4e4b5684eba0466505879209
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Tue Sep 24 12:30:54 2019 +0200
+
+    I18n: Update translation be (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d6ecf17728e9e6a07b8fbecac76910c76e5db105
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Sat Sep 21 00:31:05 2019 +0200
+
+    I18n: Update translation sk (97%).
+    
+    402 translated messages, 11 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit beffb1df46e5cf10abc9a94471fefe1e418f02ff
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Tue Sep 17 12:30:33 2019 +0200
+
+    I18n: Update translation sk (97%).
+    
+    401 translated messages, 12 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4bad6b334df63eb97930529af56772e83e6bb3a0
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Mon Sep 16 06:30:59 2019 +0200
+
+    I18n: Update translation th (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2bc96e34f8fbb0c9659a6693fe2538096fb3ac13
+Author: Stefan Höök <stefan.hook@gmail.com>
+Date:   Sat Sep 14 00:30:42 2019 +0200
+
+    I18n: Update translation sv (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 583332ef67e66a3ac7cc40ced953dfae7e0d85ad
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Sep 6 18:30:48 2019 +0200
+
+    I18n: Update translation el (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fc1eed038cbe93d1cb952f715f03b44139dee37c
+Author: tap saja <tapsaja@gmail.com>
+Date:   Thu Sep 5 12:30:32 2019 +0200
+
+    I18n: Update translation id (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e13629d93a8ebd83291a07bc0d2325c917398632
+Author: abuyop <abuyop@gmail.com>
+Date:   Mon Sep 2 18:31:09 2019 +0200
+
+    I18n: Update translation ms (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 641a38f9cbaa9b390be7880193517679d5515ebc
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Mon Sep 2 12:31:18 2019 +0200
+
+    I18n: Update translation zh_CN (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 236fb1e608cca16f1e8cc92a090011f36bcc3460
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 30 12:31:14 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c1e4a45fe03ffe081e315f971e53f0e15b22b895
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 23 18:31:26 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 73a8360302a70eba9940d9cda17c4899b9e21b55
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Wed Aug 21 06:30:38 2019 +0200
+
+    I18n: Update translation ja (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6e20267e67b5601ebd105651c6f715b6c5707441
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Wed Aug 21 18:16:09 2019 +0200
+
+    windowlist: Make layout consistent with xfdesktop
+
+commit b3c4a13dd84a5c60c333ca6610bc8089812a33cb
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Wed Aug 21 18:10:24 2019 +0200
+
+    windowmenu: Replace deprecated gtk_widget_modify_font
+
+commit 3a97cd1ccd96d8593b8b668a76bbfc949a4d9590
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Thu Sep 19 14:40:57 2019 +0200
+
+    Draw panel border based on position and length
+    
+    Previously we chose a more simplistic approach - not taking the panel
+    length into account - which resulted e.g. in the default layout in the
+    bottom panel not having a left and right border drawn, despite it not
+    having 100% width.
+    Also: Fix a leak (not freeing the border_side gchar).
+
+commit 51d1249cbfed20b57dc8e6e7c5e84f1df522c556
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Jul 13 23:17:26 2019 +0200
+
+    tasklist: Resize when windows get removed (Bug #14394)
+    
+    The idea is to do what is also done for the window-added signal.
+
+commit 820de57c44c381e47091d3a7e214852bf8fafb53
+Author: Ivan A. Melnikov <iv@altlinux.org>
+Date:   Mon Sep 23 16:18:10 2019 +0400
+
+    systray: Fix icons without compositing (Bug #14577)
+    
+    Wrapper window uses RGBA visual when it's available;
+    systray manager should try to do the same for
+    the transparent or parent-relative background to work.
+    
+    That means that the manager and icons will work with
+    RGBA visual even if the screen is not compositing; so
+    we should always force-redraw the icons.
+    
+    Refs: https://bugzilla.xfce.org/show_bug.cgi?id=14577
+    Signed-off-by: Ivan A. Melnikov <iv@altlinux.org>
+
+commit 55dc7b400feef0c35fda3e8d3515dada2ced29c4
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Thu Aug 15 23:27:25 2019 +0200
+
+    pager: Fix scrolling in pager-buttons (Bug #15614)
+    
+    Unfortunately this doesn't affect the miniature view (aka WnckPager),
+    where scrolling is handled natively and in a different - broken - order.
+
+commit 1cad3ae954f46dd63426b6565afc51c8bdb6b45d
+Author: Piotr Sokół <psokol.l10n@gmail.com>
+Date:   Sun Aug 18 00:30:55 2019 +0200
+
+    I18n: Update translation pl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7a20445b540bd605009727002b4babad997eab0f
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Sun Aug 18 00:30:55 2019 +0200
+
+    I18n: Update translation he (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8dcb8ee646d0e466b5dc8ed7535867b21c94cf36
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Sat Aug 17 18:31:09 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    413 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ad42af93bab16c8cd473d2ea66d4e70f84035dbb
+Author: clmmbs <msreywel@hotmail.com>
+Date:   Sat Aug 17 18:31:09 2019 +0200
+
+    I18n: Update translation ar (93%).
+    
+    388 translated messages, 25 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 29cf0cc6397167426fa22a10c2ab09e44a262857
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Thu Aug 15 00:30:34 2019 +0200
+
+    I18n: Update translation sr (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8e900e817a0891a43b05c189f20390e267398a11
+Author: Besnik <besnik@programeshqip.org>
+Date:   Wed Aug 14 18:30:52 2019 +0200
+
+    I18n: Update translation sq (97%).
+    
+    401 translated messages, 12 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 76c10ece7d93dc822bfc20389b17b29b9b70a270
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Wed Aug 14 16:37:13 2019 +0200
+
+    launcher: Fix visual state of arrow-button (Bug #15818)
+    
+    For some reason the "hover" (aka PRELIGHT) state remains after closing
+    the menu. Manually resetting it helps.
+
+commit 56877ac8eaa5f00cb38fb386ffabe95dff283518
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Aug 14 12:30:35 2019 +0200
+
+    I18n: Update translation hy_AM (99%).
+    
+    412 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ae4ed68b248df16fb0fdf625acc785ae73ef24cf
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Wed Aug 14 00:29:11 2019 -0300
+
+    launcher: Avoid excessive left padding on popup menu (Bug #15819)
+
+commit 58f09ae8d9f10f9454a3df667d37803cfb15d4fe
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Aug 11 23:13:56 2019 +0200
+
+    Back to development
+
+commit 8980371d80e7be81392ccba4bde5f7bca71ff037
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Aug 11 23:10:56 2019 +0200
+
+    Updates for release
+
 commit cfdf495627b699d7cb8aa349bf35ef5c3d4a1a2b
 Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
 Date:   Sun Aug 11 12:30:40 2019 +0200
