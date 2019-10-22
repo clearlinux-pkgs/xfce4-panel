@@ -1,7 +1,8 @@
-4.14.1
+4.15.0
 gobject-introspection-dev
 libX11-dev
 perl
 pkgconfig(ice)
 pkgconfig(x11)
+util-linux
 vala
