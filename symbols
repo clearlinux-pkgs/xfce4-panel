@@ -42,6 +42,7 @@ libxfce4panel-2.0.so.4:xfce_panel_plugin_get_small
 libxfce4panel-2.0.so.4:xfce_panel_plugin_get_type
 libxfce4panel-2.0.so.4:xfce_panel_plugin_get_unique_id
 libxfce4panel-2.0.so.4:xfce_panel_plugin_lookup_rc_file
+libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_destroy
 libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_insert_item
 libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_show_about
 libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_show_configure
