@@ -1,3 +1,49 @@
+4.16.3
+======
+- panel: Change width of default panel-2 to 1% (Fixes #454)
+- panel: Fix xfce4-panel-CRITICAL
+- panel: Fix xfce4-panel-CRITICAL when already running
+- libxfce4panel: Do not destroy context menu if popped up (Fixes #442)
+- launcher: Check for menu item initialization
+- launcher: Fix garcon-CRITICAL at startup
+- systray: Fix GObject-CRITICAL
+- systray: Fix Gtk-CRITICAL at startup/shutdown
+- systray: Fix libsystray-CRITICAL
+- tasklist: Fix Gtk-CRITICAL
+- Silent `-Wcast-align` from Clang
+- Translation Updates:
+  Bulgarian, English (Australia), Estonian, Hebrew, Italian, Norwegian
+  Bokmål, Occitan (post 1500), Portuguese, Spanish, Swedish
+
+4.16.2
+======
+- Add icons to help and about items in panel menu
+- Modernize documentation (developer.xfce.org)
+- Translation Updates:
+  Croatian, Estonian, Georgian, Ukrainian
+
+4.16.1
+======
+- pager: Use gobject bindings (Fixes #376)
+- pager: Switch to new workspaces icon name
+- launcher: avoid double fork
+- statustray: Display tooltip title of statusnotifier items as plaintext
+- statustray: Prevent crash when parsing properties (Fixes #379)
+- windowmenu: fix use-after-free in window_menu_plugin_window_item_new
+- Fix compilation warnings
+- Update `.gitignore`
+- Translation Updates:
+  Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque,
+  Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese
+  (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch,
+  Eastern Armenian, English (Australia), English (United Kingdom),
+  Estonian, Finnish, French, Galician, Georgian, German, Greek, Hebrew,
+  Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese,
+  Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian
+  Nynorsk, Occitan (post 1500), Panjabi (Punjabi), Polish, Portuguese,
+  Portuguese (Brazil), Romanian, Russian, Serbian, Sinhala, Slovak,
+  Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese
+
 4.16.0
 ======
 - panel: Fix intellihide with CSD (Fixes #368)
