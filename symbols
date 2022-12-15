@@ -47,6 +47,7 @@ libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_insert_item
 libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_show_about
 libxfce4panel-2.0.so.4:xfce_panel_plugin_menu_show_configure
 libxfce4panel-2.0.so.4:xfce_panel_plugin_mode_get_type
+libxfce4panel-2.0.so.4:xfce_panel_plugin_popup_menu
 libxfce4panel-2.0.so.4:xfce_panel_plugin_position_menu
 libxfce4panel-2.0.so.4:xfce_panel_plugin_position_widget
 libxfce4panel-2.0.so.4:xfce_panel_plugin_provider_ask_remove
@@ -76,4 +77,5 @@ libxfce4panel-2.0.so.4:xfce_panel_plugin_set_shrink
 libxfce4panel-2.0.so.4:xfce_panel_plugin_set_small
 libxfce4panel-2.0.so.4:xfce_panel_plugin_take_window
 libxfce4panel-2.0.so.4:xfce_panel_plugin_unblock_menu
+libxfce4panel-2.0.so.4:xfce_panel_set_image_from_source
 libxfce4panel-2.0.so.4:xfce_screen_position_get_type
